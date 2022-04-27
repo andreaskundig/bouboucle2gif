@@ -1,0 +1,16 @@
+{
+  "name": "bouboucle2gif",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@andreaskundig/looper": "^1.0.0",
+    "gifencoder": "^2.0.1",
+    "paper-jsdom-canvas": "^0.12.15"
+  }
+}
