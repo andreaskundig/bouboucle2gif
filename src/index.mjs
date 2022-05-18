@@ -9,7 +9,7 @@
 import GIFEncoder from 'gifencoder';
 import fs from 'fs';
 import paper from 'paper';
-import makeLooper from '@andreaskundig/looper';
+import { makeLooper } from '@andreaskundig/looper';
 import staticSquares from './staticSquares.js';
 import canvaspkg from 'canvas';
 
@@ -362,6 +362,7 @@ const oldmain = async () => {
     console.timeEnd('main');
 };
 const main = async () => {
+    console.log("This always generates the same gif.")
     console.time('main');
     const start = new Date().getTime();
     try{

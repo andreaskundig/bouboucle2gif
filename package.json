@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.mjs",
   "scripts": {
+    "demo": "node src/index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "@andreaskundig/looper": "^1.0.0",
+    "@andreaskundig/looper": "^1.0.2",
     "gifencoder": "^2.0.1",
     "paper-jsdom-canvas": "^0.12.15"
   }
