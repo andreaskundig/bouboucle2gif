@@ -10,7 +10,7 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "@andreaskundig/looper": "^1.0.2",
+    "@andreaskundig/looper": "github:andreaskundig/looper#looper-1.0.3",
     "gifencoder": "^2.0.1",
     "paper-jsdom-canvas": "^0.12.15"
   }
